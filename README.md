@@ -7,8 +7,12 @@ I made a video to explain how Lua works - in Persian
 and this game is the result  
 only in 20min you can make a wonderful game  
 
-Play the game online:   
-[Play the game](https://www.lexaloffle.com/bbs/?pid=119095#p)   
+## 🎮Play the game online
+lexaloffle:   
+[▶️Play online](https://www.lexaloffle.com/bbs/?pid=119095#p)   
+Github:  
+[▶️Play online](https://peymanx.github.io/Mario-vs-Khabis/khabis.html)
+
 In Persian "khabis" means bad guy.   
 Khabis and mario try to get fruits and avoid bombs.    
 a simple senario and addictive game :)    
