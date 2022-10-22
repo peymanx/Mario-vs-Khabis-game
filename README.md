@@ -17,7 +17,7 @@ In Persian "khabis" means bad guy.
 Khabis and mario try to get fruits and avoid bombs.    
 a simple senario and addictive game :)    
 
-#Source Code
+## Source Code
 
 Simply move the mario with arrow keys
 
