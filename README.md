@@ -86,5 +86,7 @@ end
 
 ![khabis](KHABIS.gif)   
 
-Watch the video for full tutorial   
+Watch the video for full tutorial  
+![image](https://user-images.githubusercontent.com/110537772/197327108-8d1ce770-048f-4ef8-9924-5a018626667b.png)
+
 happy coding
