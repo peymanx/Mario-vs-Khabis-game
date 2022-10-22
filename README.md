@@ -15,6 +15,26 @@ a simple senario and addictive game :)
 
 #Source Code
 
+Simply move the mario with arrow keys
+
+```lua
+      if btn(⬅️) then
+            mario.x-=speed
+            mario.spr=4				
+      end
+      if btn(➡️) then
+            mario.x+=speed	
+            mario.spr=1			
+      end
+
+      if btn(⬆️) then
+            mario.y-=speed				
+      end
+      if btn(⬇️) then
+            mario.y+=speed				
+      end
+```
+
 There are 3 main functions `_init()`,`_update()`,`_draw()`
 
 ```lua
@@ -53,24 +73,9 @@ function _draw()
 end
 ```
 
-Simply move the mario with arrow keys
 
-```lua
-      if btn(⬅️) then
-            mario.x-=speed
-            mario.spr=4				
-      end
-      if btn(➡️) then
-            mario.x+=speed	
-            mario.spr=1			
-      end
 
-      if btn(⬆️) then
-            mario.y-=speed				
-      end
-      if btn(⬇️) then
-            mario.y+=speed				
-      end
-```
+![khabis](KHABIS.gif)   
 
-![khabis](khabis.gif)
+Watch the video for full tutorial   
+happy coding
