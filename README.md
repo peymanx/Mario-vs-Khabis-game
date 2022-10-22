@@ -8,6 +8,8 @@ and this game is the result
 only in 20min you can make a wonderful game  
 
 ## 🎮Play the game online
+![image](https://user-images.githubusercontent.com/110537772/197327037-6b5eae69-278e-411e-819a-4ccf5e917adb.png)
+
 lexaloffle:   
 [▶️Play online](https://www.lexaloffle.com/bbs/?pid=119095#p)   
 Github:  
@@ -38,6 +40,9 @@ Simply move the mario with arrow keys
             mario.y+=speed				
       end
 ```
+
+
+
 
 There are 3 main functions `_init()`,`_update()`,`_draw()`
 
