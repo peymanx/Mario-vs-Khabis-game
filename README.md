@@ -6,6 +6,7 @@ What's up guys
 I made a video to explain how Lua works - in Persian  
 and this game is the result  
 only in 20min you can make a wonderful game  
+Try to get fruits(miveh) and avoid bombs.  
 
 ## 🎮Play the game online
 ![image](https://user-images.githubusercontent.com/110537772/197327037-6b5eae69-278e-411e-819a-4ccf5e917adb.png)
