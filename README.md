@@ -1,10 +1,11 @@
 # Mario vs Khabis
-Mario vs Khabis   
+Mivehkhor or fruit party  
+ 
 ![preview](preview.gif)   
-
-What's up guys   
+   
 I made a video to explain how Lua works - in Persian  
-and this game is the result  
+and this game is the result   
+Video is not ready yet.  
 only in 20min you can make a wonderful game  
 Try to get fruits(miveh) and avoid bombs.  
 
