@@ -1,5 +1,9 @@
 # Mario vs Khabis
 Mivehkhor or fruit party  
+## 🍒🍓🍌🥝🥭🥕🍎🍏   
+In this party you should eat fruit as much as you can   
+The winner is who has more scores
+ 
  
 ![preview](preview.gif)   
    
@@ -16,6 +20,7 @@ lexaloffle:
 [▶️Play online](https://www.lexaloffle.com/bbs/?pid=119095#p)   
 Github:  
 [▶️Play online](https://peymanx.github.io/Mario-vs-Khabis/khabis.html)
+
 
 In Persian "khabis" means bad guy.   
 Khabis and mario try to get fruits and avoid bombs.    
