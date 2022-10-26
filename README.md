@@ -1,12 +1,13 @@
 # Mario vs Khabis
 Mivehkhor or fruit party  
-## 🍒🍓🍌🥝🥭🥕🍎🍏   
-In this party you should eat fruit as much as you can   
-The winner is who has more scores
  
  
 ![preview](preview.gif)   
    
+## 🍒🍓🍌🥝🥭🥕🍎🍏....💣   
+In this party you should eat fruit as much as you can   
+![image](https://user-images.githubusercontent.com/110537772/197971498-f8ee87c2-b755-4640-ba75-6c0962ebb74e.png)   
+The winner is who has more scores   
 I made a video to explain how Lua works - in Persian  
 and this game is the result   
 Video is not ready yet.  
@@ -27,29 +28,6 @@ Khabis and mario try to get fruits and avoid bombs.
 a simple senario and addictive game :)    
 
 ## Source Code
-
-Simply move the mario with arrow keys
-
-```lua
-      if btn(⬅️) then
-            mario.x-=speed
-            mario.spr=4				
-      end
-      if btn(➡️) then
-            mario.x+=speed	
-            mario.spr=1			
-      end
-
-      if btn(⬆️) then
-            mario.y-=speed				
-      end
-      if btn(⬇️) then
-            mario.y+=speed				
-      end
-```
-
-
-
 
 There are 3 main functions `_init()`,`_update()`,`_draw()`
 
@@ -88,7 +66,44 @@ function _draw()
     mario.draw()
 end
 ```
+## Collision Detection
+In physics, a collision is any event in which two or more bodies exert forces on each other in a relatively short time.
 
+
+```lua
+function collision(a,b,x,y)
+    if (a <= x and a+8 >=x or 
+            x <= a and x+8 >=a) and
+                (b <= y and b+8 >=y or 
+            y <= b and y+8 >=b) then
+            return true
+        end
+        
+        return false				
+end
+```
+![khabis_5](https://user-images.githubusercontent.com/110537772/197976201-d06dd44c-55da-4f20-abf3-6ded6d210fdc.gif)   
+
+
+Simply move the mario with arrow keys   
+
+```lua
+      if btn(⬅️) then
+            mario.x-=speed
+            mario.spr=4				
+      end
+      if btn(➡️) then
+            mario.x+=speed	
+            mario.spr=1			
+      end
+
+      if btn(⬆️) then
+            mario.y-=speed				
+      end
+      if btn(⬇️) then
+            mario.y+=speed				
+      end
+```
 
 
 ![khabis](KHABIS.gif)   
