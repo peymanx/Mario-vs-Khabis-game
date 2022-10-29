@@ -77,9 +77,9 @@ function collision(a,b,x,y)
                 (b <= y and b+8 >=y or 
             y <= b and y+8 >=b) then
             return true
-        end
+    end
         
-        return false				
+    return false				
 end
 ```
 ![khabis_5](https://user-images.githubusercontent.com/110537772/197976201-d06dd44c-55da-4f20-abf3-6ded6d210fdc.gif)   
@@ -104,6 +104,8 @@ Simply move the mario with arrow keys
             mario.y+=speed				
       end
 ```
+## PICO-8 CheatSheet
+![CheatSheet](PICO-8_CheatSheet.png)   
 
 
 ![khabis](KHABIS.gif)   
